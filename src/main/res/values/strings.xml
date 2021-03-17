@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">304ProjectAssembly</string>
+    <string name="where_is_the_issue">Where is the issue? OR select Find Me</string>
+    <string name="new_report">New Report</string>
+    <string name="find_me">FIND ME</string>
+    <string name="feel_free_to_add_aditional_details_or_describe_your_issue_here_if_you_cannot_find_it_in_the_drop_down_menu">Feel free to add aditional details or describe your issue here if you cannot find it in the drop down menu</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="whats_is_the_issue">Whats is the issue?</string>
+    <string name="roomnum">roomnum...</string>
+    <string name="ubcbanner">ubcbanner</string>
+    <string name="markDone">MARK AS DONE</string>
+    <color name="white">#FFFFFF</color>
+
+    <string-array name="building">
+        <item>BUILDING</item>
+        <item>ADM</item>
+        <item>ARTS</item>
+        <item>ASC</item>
+        <item>CCS</item>
+        <item>EME</item>
+        <item>FIP</item>
+        <item>LIB</item>
+        <item>RHC</item>
+        <item>SCI</item>
+        <item>UNC</item>
+    </string-array>
+    <string-array name="room">
+        <item>ROOM</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+        <item>200</item>
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>205</item>
+        <item>210</item>
+        <item>300</item>
+        <item>306</item>
+        <item>307</item>
+        <item>308</item>
+        <item>309</item>
+        <item>310</item>
+        <item>WASHROOM</item>
+    </string-array>
+    <string-array name="issues">
+        <item>ISSUE</item>
+        <item>Burnt out light</item>
+        <item>Clogged Drains</item>
+        <item>Full trash</item>
+        <item>General Cleanliness</item>
+        <item>Missing furniture</item>
+        <item>Missing towel paper</item>
+        <item>Spill</item>
+        <item>Washroom toilet</item>
+    </string-array>
+
+</resources>
+
+

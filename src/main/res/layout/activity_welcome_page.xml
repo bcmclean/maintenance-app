@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="125dp"
+    tools:context=".WelcomePage"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="405dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:text="Sign in                                          >"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ubc_banner" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="215dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/buttonshape"
+        android:text="Report Issue \n Anonymously"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ubc_banner" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="163dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="20dp"
+        android:text="TRACK REPORTS"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/report" />
+
+    <ImageView
+        android:id="@+id/ubc_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="248dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/web"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="330dp"
+        android:layout_height="75dp"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/narrowlogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:style="@android:style/Widget.Holo.Light.ImageButton" />
+
+</android.support.constraint.ConstraintLayout>

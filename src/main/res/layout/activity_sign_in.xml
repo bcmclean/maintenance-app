@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <ImageView
+        android:id="@+id/ubc_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ubc_banner" />
+
+    <TextView
+        android:id="@+id/campusWide"
+        android:layout_width="309dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:text="Campus-wide Login Authentication"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.DropDownHint"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ubc_banner" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="30dp"
+        android:text="Login:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/campusWide" />
+
+    <EditText
+        android:id="@+id/enterLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login" />
+
+    <EditText
+        android:id="@+id/enterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="24dp"
+        android:text="Password:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/enterLogin" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="161dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="16dp"
+        android:text="Continue >"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/keepMeLoggedIn" />
+
+    <CheckBox
+        android:id="@+id/keepMeLoggedIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep me logged in"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/enterPassword"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+
+</android.support.constraint.ConstraintLayout>
